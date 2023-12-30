@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "myquarrize",
+	"version": "${version}",
+	"name": "Myquarrize",
+	"description": "This is my first mod used to make quarry that will help you to dig a hole or perimeter",
+	"authors": [
+		"Ahmad0126"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/myquarrize/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ahmad.myquarize.Myquarrize"
+		],
+		"client": [
+			"net.ahmad.myquarize.MyquarrizeClient"
+		],
+		"fabric-datagen": [
+			"net.ahmad.myquarize.MyquarrizeDataGenerator"
+		]
+	},
+	"mixins": [
+		"myquarrize.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
