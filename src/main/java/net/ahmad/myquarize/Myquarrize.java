@@ -1,6 +1,8 @@
 package net.ahmad.myquarize;
 
-import net.ahmad.myquarize.items.ModItems;
+import net.ahmad.myquarize.block.ModBlocks;
+import net.ahmad.myquarize.item.ModItemGroups;
+import net.ahmad.myquarize.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +15,8 @@ public class Myquarrize implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing Myquarrize mod...");
+		ModItemGroups.registerModItemGroup();
+		ModBlocks.registerModItems();
 		ModItems.registerModItems();
 	}
 }
