@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-        new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK).hardness(3.0f)));
+        new Block(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK).strength(0.2f)));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+        new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(0.1f)));
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
-        new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).hardness(20.0f).resistance(20.0f)));
+        new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).strength(0.4f)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -17,8 +17,10 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.RUBY))
             .entries((displayContext, entries) -> {
                 entries.add(ModItems.RUBY);
+                entries.add(ModItems.RAW_RUBY);
                 entries.add(ModItems.STEEL);
                 entries.add(ModBlocks.RUBY_BLOCK);
+                entries.add(ModBlocks.RUBY_ORE);
                 entries.add(ModBlocks.STEEL_BLOCK);
             }
         ).build()

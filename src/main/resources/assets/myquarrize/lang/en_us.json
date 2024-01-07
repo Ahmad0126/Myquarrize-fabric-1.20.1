@@ -1,7 +1,9 @@
 {
   "item.myquarrize.ruby": "Ruby",
+  "item.myquarrize.raw_ruby": "Raw Ruby",
   "item.myquarrize.steel_ingot": "Steel Ingot",
   "block.myquarrize.ruby_block": "Block of Ruby",
+  "block.myquarrize.ruby_ore": "Ruby Ore",
   "block.myquarrize.steel_block": "Block of Steel",
   "itemgroup.mods": "Mods"
 }
