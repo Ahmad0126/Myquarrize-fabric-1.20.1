@@ -24,6 +24,8 @@ public class ModItemGroups {
                 entries.add(ModBlocks.RUBY_BLOCK);
                 entries.add(ModBlocks.RUBY_ORE);
                 entries.add(ModBlocks.STEEL_BLOCK);
+                entries.add(ModBlocks.THUNDER_BLOCK);
+                entries.add(ModBlocks.THUNDER_STEEL);
             }
         ).build()
     );

@@ -5,6 +5,8 @@
   "item.myquarrize.steel_hoe": "Steel Hoe",
   "item.myquarrize.metal_detector": "Metal Detector",
   "block.myquarrize.ruby_block": "Block of Ruby",
+  "block.myquarrize.thunder_block": "Cursed Ruby",
+  "block.myquarrize.thunder_steel": "Cursed Steel",
   "block.myquarrize.ruby_ore": "Ruby Ore",
   "block.myquarrize.steel_block": "Block of Steel",
   "itemgroup.mods": "Mods"

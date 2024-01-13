@@ -33,6 +33,9 @@ public class MineralDetectorItem extends Item {
                 world.setBlockState(pos, newCrops);
             }
         }
+        stack.damage(1, miner,
+                livingEntity -> livingEntity.sendToolBreakStatus(livingEntity.getActiveHand()));
+
         return super.postMine(stack, world, state, pos, miner);
     }
 
@@ -57,6 +60,9 @@ public class MineralDetectorItem extends Item {
                 player.sendMessage(Text.literal("No Minerals Found!"));
             }
         }
+        context.getStack().damage(1, context.getPlayer(),
+                playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+
         return ActionResult.SUCCESS;
     }
 

@@ -36,6 +36,9 @@ public class MetalDetectorItem extends Item {
                 player.sendMessage(Text.literal("No Ores Found!"));
             }
         }
+        context.getStack().damage(1, context.getPlayer(),
+                playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+
         return ActionResult.SUCCESS;
     }
 
