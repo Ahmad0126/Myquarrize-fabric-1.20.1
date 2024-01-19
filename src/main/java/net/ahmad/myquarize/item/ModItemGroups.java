@@ -19,6 +19,7 @@ public class ModItemGroups {
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.RAW_RUBY);
                 entries.add(ModItems.STEEL);
+                entries.add(ModItems.COKLAT_BATANG);
                 entries.add(ModItems.STEEL_HOE);
                 entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModBlocks.RUBY_BLOCK);

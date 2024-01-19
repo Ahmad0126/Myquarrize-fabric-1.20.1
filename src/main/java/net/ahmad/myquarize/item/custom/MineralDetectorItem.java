@@ -3,6 +3,7 @@ package net.ahmad.myquarize.item.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -12,6 +13,9 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class MineralDetectorItem extends Item {
     public MineralDetectorItem(Settings settings) {
@@ -73,5 +77,11 @@ public class MineralDetectorItem extends Item {
 
     private boolean isValuableBlock(BlockState state) {
         return state.isOf(Blocks.GRANITE) || state.isOf(Blocks.DIORITE) || state.isOf(Blocks.ANDESITE);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.literal("Cangkul sakti auto replant"));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }

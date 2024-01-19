@@ -2,6 +2,7 @@
   "item.myquarrize.ruby": "Ruby",
   "item.myquarrize.raw_ruby": "Raw Ruby",
   "item.myquarrize.steel_ingot": "Steel Ingot",
+  "item.myquarrize.coklat_batang": "Coklat Batang",
   "item.myquarrize.steel_hoe": "Steel Hoe",
   "item.myquarrize.metal_detector": "Metal Detector",
   "block.myquarrize.ruby_block": "Block of Ruby",
@@ -9,5 +10,6 @@
   "block.myquarrize.thunder_steel": "Cursed Steel",
   "block.myquarrize.ruby_ore": "Ruby Ore",
   "block.myquarrize.steel_block": "Block of Steel",
+  "tooltip.myquarrize.thunder_block.tooltip": "Jangan diinjak!",
   "itemgroup.mods": "Mods"
 }
