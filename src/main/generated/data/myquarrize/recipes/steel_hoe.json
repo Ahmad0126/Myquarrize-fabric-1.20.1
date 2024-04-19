@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "myquarrize:steel_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "##",
+    " I",
+    " I"
+  ],
+  "result": {
+    "item": "myquarrize:steel_hoe"
+  },
+  "show_notification": true
+}

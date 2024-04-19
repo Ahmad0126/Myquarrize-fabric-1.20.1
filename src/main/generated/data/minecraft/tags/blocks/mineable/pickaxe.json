@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "myquarrize:ruby_block",
+    "myquarrize:ruby_ore",
+    "myquarrize:steel_block",
+    "myquarrize:thunder_block",
+    "myquarrize:thunder_steel"
+  ]
+}

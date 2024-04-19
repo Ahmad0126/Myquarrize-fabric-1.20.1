@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "myquarrize:block/thunder_block"
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "myquarrize:block/ruby_ore"
-	}
-}

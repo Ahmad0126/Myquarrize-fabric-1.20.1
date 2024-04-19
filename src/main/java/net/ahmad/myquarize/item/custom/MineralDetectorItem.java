@@ -6,15 +6,18 @@ import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MineralDetectorItem extends Item {
@@ -27,16 +30,18 @@ public class MineralDetectorItem extends Item {
         if(!world.isClient()){
             
             boolean isCrops =
-                state.isOf(Blocks.CARROTS) ||
-                state.isOf(Blocks.WHEAT) ||
-                state.isOf(Blocks.BEETROOTS) ||
-                state.isOf(Blocks.POTATOES);
+                state.isOf(Blocks.CARROTS);
 
             if(isCrops){
                 BlockState newCrops = state.getBlock().getDefaultState();
                 world.setBlockState(pos, newCrops);
+                ItemStack crops = new ItemStack(Items.CARROT);
+                PlayerInventory inventory = new PlayerInventory((PlayerEntity) miner);
+                inventory.removeOne(crops);
             }
+
         }
+
         stack.damage(1, miner,
                 livingEntity -> livingEntity.sendToolBreakStatus(livingEntity.getActiveHand()));
 
