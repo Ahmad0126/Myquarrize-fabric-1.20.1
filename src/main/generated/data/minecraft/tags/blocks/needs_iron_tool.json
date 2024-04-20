@@ -3,6 +3,13 @@
   "values": [
     "myquarrize:ruby_ore",
     "myquarrize:steel_block",
-    "myquarrize:thunder_steel"
+    "myquarrize:thunder_steel",
+    "myquarrize:ruby_slab",
+    "myquarrize:ruby_stairs",
+    "myquarrize:ruby_fence",
+    "myquarrize:ruby_fence_gate",
+    "myquarrize:ruby_wall",
+    "myquarrize:ruby_door",
+    "myquarrize:ruby_trapdoor"
   ]
 }

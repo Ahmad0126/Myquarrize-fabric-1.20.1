@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "myquarrize:block/thunder_steel"
+      "model": "myquarrize:block/steel_block"
     }
   }
 }

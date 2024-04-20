@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -40,5 +41,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL), conditionsFromItem(ModItems.STEEL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_HOE)));
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_SLAB, ModItems.RUBY);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_STAIRS, ModItems.RUBY);
+        offerPressurePlateRecipe(exporter, ModBlocks.RUBY_PRESSURE_PLATE, ModItems.RUBY);
+        createTrapdoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY));
+        offerShapelessRecipe(exporter, ModBlocks.RUBY_BUTTON, ModItems.RUBY, "ruby", 1);
     }
 }

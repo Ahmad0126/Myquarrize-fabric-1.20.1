@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "myquarrize:block/thunder_block"
+      "model": "myquarrize:block/ruby_block"
     }
   }
 }

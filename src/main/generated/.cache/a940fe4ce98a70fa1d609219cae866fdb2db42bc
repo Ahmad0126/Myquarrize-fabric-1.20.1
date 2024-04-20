@@ -1,6 +1,15 @@
-// 1.20.1	2024-04-19T13:14:32.5421652	Myquarrize/Block Loot Tables
-45e69db43c15d4561cc54cbb0e5f185ee8ba266b data\myquarrize\loot_tables\blocks\ruby_block.json
+// 1.20.1	2024-04-20T09:49:24.426687	Myquarrize/Block Loot Tables
 36a92ee6ffbf6a15b9612efb7176ce5dea49d7ae data\myquarrize\loot_tables\blocks\steel_block.json
-a1580741e37de46a692aac24f448fb4276e79778 data\myquarrize\loot_tables\blocks\thunder_steel.json
+d6c6e5704451c1a9418cae15590c92660db23755 data\myquarrize\loot_tables\blocks\ruby_slab.json
+760d8621fb387aadbfbc0689632898d69fd11a32 data\myquarrize\loot_tables\blocks\ruby_trapdoor.json
 7812d47fcea0c969e4ebf8ac78cf4261742ee9df data\myquarrize\loot_tables\blocks\ruby_ore.json
+e7bd0317e9491a2137653e2804260ecd5be61298 data\myquarrize\loot_tables\blocks\ruby_door.json
 d3cb5ba2a80e5bd8df8de5235d0814d7d1a5aa22 data\myquarrize\loot_tables\blocks\thunder_block.json
+7702a238efddbf7ed04fdd6e019f5d7243517154 data\myquarrize\loot_tables\blocks\ruby_fence_gate.json
+885512aac8fd6fe12926f2fdf67982a528c8159d data\myquarrize\loot_tables\blocks\ruby_pressure_plate.json
+b1157987745a3630e80644ebafc87f3ed1c65964 data\myquarrize\loot_tables\blocks\ruby_stairs.json
+45e69db43c15d4561cc54cbb0e5f185ee8ba266b data\myquarrize\loot_tables\blocks\ruby_block.json
+a1580741e37de46a692aac24f448fb4276e79778 data\myquarrize\loot_tables\blocks\thunder_steel.json
+a868e3d749c38ac328c5220c606013fc1c10d4bf data\myquarrize\loot_tables\blocks\ruby_fence.json
+cd2022578f4ffaf7373ec9820c1733cea0574bdf data\myquarrize\loot_tables\blocks\ruby_wall.json
+1028e0f89ef5999f0f85ff59ba0581576e42fb94 data\myquarrize\loot_tables\blocks\ruby_button.json
