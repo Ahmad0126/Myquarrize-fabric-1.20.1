@@ -1,4 +1,7 @@
-// 1.20.1	2024-04-20T09:49:24.4207038	Myquarrize/Tags for minecraft:block
-2d9a0bbcb6fe32ab62d31e70dfe470ea9ed5a9b8 data\minecraft\tags\blocks\needs_iron_tool.json
-7f8a5f3cc6ef773fab006712ed26d26d40a447cd data\minecraft\tags\blocks\needs_stone_tool.json
-097a88f8875d79e7965c98179215ee4453b2b8bb data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-04-22T09:08:17.9572136	Myquarrize/Tags for minecraft:block
+dea403a24378d24d785d68101e8f50157fed5561 data\minecraft\tags\blocks\walls.json
+6b2a0e6f1733bf5fe8d799ae7e5e7a0bbf3db64b data\minecraft\tags\blocks\fences.json
+12e7ceb5428c8b2e98cf4b65485da71442a31e76 data\minecraft\tags\blocks\needs_iron_tool.json
+44d95cc7fd822cf696a5e6c5ef77c60252bf5236 data\minecraft\tags\blocks\fence_gates.json
+e5ffc94d77eb2f2ed2058bd21f789d7fd154e9e9 data\minecraft\tags\blocks\needs_stone_tool.json
+1025c0e28dc473ae8e64f9f4a31c28823a90038e data\minecraft\tags\blocks\mineable\pickaxe.json

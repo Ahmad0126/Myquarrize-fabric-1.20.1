@@ -7,6 +7,22 @@
     "myquarrize:thunder_block",
     "myquarrize:thunder_steel",
     "myquarrize:ruby_button",
-    "myquarrize:ruby_pressure_plate"
+    "myquarrize:ruby_pressure_plate",
+    "myquarrize:ruby_slab",
+    "myquarrize:ruby_stairs",
+    "myquarrize:ruby_fence",
+    "myquarrize:ruby_fence_gate",
+    "myquarrize:ruby_wall",
+    "myquarrize:ruby_door",
+    "myquarrize:ruby_trapdoor",
+    "myquarrize:steel_button",
+    "myquarrize:steel_pressure_plate",
+    "myquarrize:steel_slab",
+    "myquarrize:steel_stairs",
+    "myquarrize:steel_fence",
+    "myquarrize:steel_fence_gate",
+    "myquarrize:steel_wall",
+    "myquarrize:steel_door",
+    "myquarrize:steel_trapdoor"
   ]
 }

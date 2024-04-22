@@ -45,6 +45,24 @@ public class ModBlocks {
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
         new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f)));
+    public static final Block STEEL_SLAB = registerBlock("steel_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f)));
+    public static final Block STEEL_STAIRS = registerBlock("steel_stairs",
+            new StairsBlock(ModBlocks.STEEL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f)));
+    public static final Block STEEL_FENCE = registerBlock("steel_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f)));
+    public static final Block STEEL_FENCE_GATE = registerBlock("steel_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), WoodType.OAK));
+    public static final Block STEEL_WALL = registerBlock("steel_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f)));
+    public static final Block STEEL_DOOR = registerBlock("steel_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), BlockSetType.IRON));
+    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), BlockSetType.IRON));
+    public static final Block STEEL_BUTTON = registerBlock("steel_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), BlockSetType.IRON, 10, true));
+    public static final Block STEEL_PRESSURE_PLATE = registerBlock("steel_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), BlockSetType.IRON));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

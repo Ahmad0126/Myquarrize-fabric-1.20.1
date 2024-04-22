@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -30,6 +31,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, RUBY_SMELTABLE, RecipeCategory.MISC, ModItems.RUBY, 0.7f, 100, "ruby");
         offerSmelting(exporter, STEEL_SMELTABLE, RecipeCategory.MISC, ModItems.RUBY, 0.7f, 200, "steel");
         offerBlasting(exporter, STEEL_SMELTABLE, RecipeCategory.MISC, ModItems.RUBY, 0.7f, 100, "steel");
+
         offerReversibleCompactingRecipes(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.MISC, ModBlocks.RUBY_BLOCK);
         offerReversibleCompactingRecipes(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.STEEL, RecipeCategory.MISC, ModBlocks.STEEL_BLOCK);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STEEL_HOE, 1)
@@ -41,10 +43,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(ModItems.STEEL), conditionsFromItem(ModItems.STEEL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.STEEL_HOE)));
+
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_SLAB, ModItems.RUBY);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_STAIRS, ModItems.RUBY);
         offerPressurePlateRecipe(exporter, ModBlocks.RUBY_PRESSURE_PLATE, ModItems.RUBY);
-        createTrapdoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY));
         offerShapelessRecipe(exporter, ModBlocks.RUBY_BUTTON, ModItems.RUBY, "ruby", 1);
+
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_SLAB, ModItems.STEEL);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STEEL_STAIRS, ModItems.STEEL);
+        offerPressurePlateRecipe(exporter, ModBlocks.STEEL_PRESSURE_PLATE, ModItems.STEEL);
+        offerShapelessRecipe(exporter, ModBlocks.STEEL_BUTTON, ModItems.STEEL, "ruby", 1);
     }
 }

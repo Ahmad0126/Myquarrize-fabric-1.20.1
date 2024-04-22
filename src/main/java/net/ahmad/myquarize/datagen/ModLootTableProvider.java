@@ -26,7 +26,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.STEEL_BLOCK);
+
+        addDrop(ModBlocks.STEEL_FENCE);
+        addDrop(ModBlocks.STEEL_WALL);
+        addDrop(ModBlocks.STEEL_FENCE_GATE);
+        addDrop(ModBlocks.STEEL_STAIRS);
+        addDrop(ModBlocks.STEEL_TRAPDOOR);
+        addDrop(ModBlocks.STEEL_BUTTON);
+        addDrop(ModBlocks.STEEL_PRESSURE_PLATE);
+
         addDrop(ModBlocks.RUBY_BLOCK);
+
         addDrop(ModBlocks.RUBY_FENCE);
         addDrop(ModBlocks.RUBY_WALL);
         addDrop(ModBlocks.RUBY_FENCE_GATE);
@@ -34,11 +44,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_TRAPDOOR);
         addDrop(ModBlocks.RUBY_BUTTON);
         addDrop(ModBlocks.RUBY_PRESSURE_PLATE);
+
         addDrop(ModBlocks.THUNDER_BLOCK);
         addDrop(ModBlocks.THUNDER_STEEL);
+
         addDrop(ModBlocks.RUBY_ORE, rubyOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY));
+
         addDrop(ModBlocks.RUBY_SLAB, slabDrops(ModBlocks.RUBY_SLAB));
         addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
+
+        addDrop(ModBlocks.STEEL_SLAB, slabDrops(ModBlocks.STEEL_SLAB));
+        addDrop(ModBlocks.STEEL_DOOR, doorDrops(ModBlocks.STEEL_DOOR));
     }
 
     public LootTable.Builder rubyOreDrops(Block drop, Item item) {

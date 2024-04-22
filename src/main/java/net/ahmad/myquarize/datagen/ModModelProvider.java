@@ -22,7 +22,17 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
 
+        blockStateModelGenerator.registerDoor(ModBlocks.STEEL_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.STEEL_TRAPDOOR);
+
         steelPool.same(ModBlocks.THUNDER_STEEL);
+        steelPool.slab(ModBlocks.STEEL_SLAB);
+        steelPool.fence(ModBlocks.STEEL_FENCE);
+        steelPool.fenceGate(ModBlocks.STEEL_FENCE_GATE);
+        steelPool.wall(ModBlocks.STEEL_WALL);
+        steelPool.button(ModBlocks.STEEL_BUTTON);
+        steelPool.stairs(ModBlocks.STEEL_STAIRS);
+        steelPool.pressurePlate(ModBlocks.STEEL_PRESSURE_PLATE);
 
         rubyPool.same(ModBlocks.THUNDER_BLOCK);
         rubyPool.slab(ModBlocks.RUBY_SLAB);

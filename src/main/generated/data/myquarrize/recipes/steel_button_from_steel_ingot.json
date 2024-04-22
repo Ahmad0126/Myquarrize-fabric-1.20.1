@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "ruby",
+  "ingredients": [
+    {
+      "item": "myquarrize:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "myquarrize:steel_button"
+  }
+}

@@ -2,6 +2,16 @@
   "replace": false,
   "values": [
     "myquarrize:ruby_block",
-    "myquarrize:thunder_block"
+    "myquarrize:thunder_block",
+    "myquarrize:ruby_fence",
+    "myquarrize:ruby_fence_gate",
+    "myquarrize:ruby_wall",
+    "myquarrize:ruby_door",
+    "myquarrize:ruby_trapdoor",
+    "myquarrize:steel_fence",
+    "myquarrize:steel_fence_gate",
+    "myquarrize:steel_wall",
+    "myquarrize:steel_door",
+    "myquarrize:steel_trapdoor"
   ]
 }
