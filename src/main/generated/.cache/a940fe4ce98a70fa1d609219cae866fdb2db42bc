@@ -1,10 +1,10 @@
-// 1.20.1	2024-04-22T09:08:17.9622054	Myquarrize/Block Loot Tables
+// 1.20.1	2024-04-23T09:29:52.0820647	Myquarrize/Block Loot Tables
 36a92ee6ffbf6a15b9612efb7176ce5dea49d7ae data\myquarrize\loot_tables\blocks\steel_block.json
 68f73cc27090dfa02a85dd30eccade6f1f3d806f data\myquarrize\loot_tables\blocks\steel_slab.json
-95b1d043258892dc252d8974afad1c2f42ded8c9 data\myquarrize\loot_tables\blocks\steel_door.json
-d6c6e5704451c1a9418cae15590c92660db23755 data\myquarrize\loot_tables\blocks\ruby_slab.json
 70941f9faf624dc2d8120f93e9c2c9eae2f686be data\myquarrize\loot_tables\blocks\steel_button.json
+d6c6e5704451c1a9418cae15590c92660db23755 data\myquarrize\loot_tables\blocks\ruby_slab.json
 760d8621fb387aadbfbc0689632898d69fd11a32 data\myquarrize\loot_tables\blocks\ruby_trapdoor.json
+95b1d043258892dc252d8974afad1c2f42ded8c9 data\myquarrize\loot_tables\blocks\steel_door.json
 7812d47fcea0c969e4ebf8ac78cf4261742ee9df data\myquarrize\loot_tables\blocks\ruby_ore.json
 f7e9de90898040ba8f8fe52398feae31c2b9c046 data\myquarrize\loot_tables\blocks\steel_fence.json
 e7bd0317e9491a2137653e2804260ecd5be61298 data\myquarrize\loot_tables\blocks\ruby_door.json
@@ -14,8 +14,8 @@ d3cb5ba2a80e5bd8df8de5235d0814d7d1a5aa22 data\myquarrize\loot_tables\blocks\thun
 bd1b1804aaec87b60ec987bcf96d79eaf9f3b128 data\myquarrize\loot_tables\blocks\steel_pressure_plate.json
 d6613907b41434a684f726d9f6be5cf4ee2fec4f data\myquarrize\loot_tables\blocks\steel_trapdoor.json
 885512aac8fd6fe12926f2fdf67982a528c8159d data\myquarrize\loot_tables\blocks\ruby_pressure_plate.json
-45e69db43c15d4561cc54cbb0e5f185ee8ba266b data\myquarrize\loot_tables\blocks\ruby_block.json
 b1157987745a3630e80644ebafc87f3ed1c65964 data\myquarrize\loot_tables\blocks\ruby_stairs.json
+45e69db43c15d4561cc54cbb0e5f185ee8ba266b data\myquarrize\loot_tables\blocks\ruby_block.json
 a1580741e37de46a692aac24f448fb4276e79778 data\myquarrize\loot_tables\blocks\thunder_steel.json
 3e984f6bcbcc2fd303c2d3c653f0c38bfc82bc83 data\myquarrize\loot_tables\blocks\steel_fence_gate.json
 a868e3d749c38ac328c5220c606013fc1c10d4bf data\myquarrize\loot_tables\blocks\ruby_fence.json

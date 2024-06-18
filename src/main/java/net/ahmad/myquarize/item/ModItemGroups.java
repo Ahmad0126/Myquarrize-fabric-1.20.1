@@ -19,6 +19,7 @@ public class ModItemGroups {
                 entries.add(ModItems.COKLAT_BATANG);
                 entries.add(ModItems.STEEL_HOE);
                 entries.add(ModItems.METAL_DETECTOR);
+                entries.add(ModItems.RUBY_STAFF);
 
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.RAW_RUBY);
@@ -34,6 +35,11 @@ public class ModItemGroups {
                 entries.add(ModBlocks.RUBY_WALL);
                 entries.add(ModBlocks.RUBY_BUTTON);
                 entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                entries.add(ModItems.RUBY_SWORD);
+                entries.add(ModItems.RUBY_PICKAXE);
+                entries.add(ModItems.RUBY_AXE);
+                entries.add(ModItems.RUBY_SHOVEL);
+                entries.add(ModItems.RUBY_HOE);
 
                 entries.add(ModItems.STEEL);
                 entries.add(ModBlocks.STEEL_BLOCK);
