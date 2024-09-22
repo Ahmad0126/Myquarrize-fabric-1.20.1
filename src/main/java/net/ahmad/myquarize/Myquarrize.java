@@ -3,6 +3,7 @@ package net.ahmad.myquarize;
 import net.ahmad.myquarize.block.ModBlocks;
 import net.ahmad.myquarize.item.ModItemGroups;
 import net.ahmad.myquarize.item.ModItems;
+import net.ahmad.myquarize.util.ModLootTableModifier;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -22,5 +23,6 @@ public class Myquarrize implements ModInitializer {
 		FuelRegistry.INSTANCE.add(Blocks.HAY_BLOCK, 175);
 		ModBlocks.registerModItems();
 		ModItems.registerModItems();
+		ModLootTableModifier.modifyLootTables();
 	}
 }
