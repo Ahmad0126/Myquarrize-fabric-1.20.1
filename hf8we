@@ -1,0 +1,98 @@
+[33mcommit d90f4c3230916e6876d4aab78a9aca8dee3aa0f7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Thu Jan 16 20:56:55 2025 +0700
+
+    Blockstate and NBT data practice
+
+[33mcommit ca33e957ebb1e23a2f15ba4f79b67d6850e45cd7[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sun Sep 22 10:57:33 2024 +0700
+
+    Custom Loot Table
+
+[33mcommit 4e1303f2665fad1c0f0c08e5f754b3101fbe087e[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Tue Jun 18 11:05:01 2024 +0700
+
+    Custom Armor H2
+
+[33mcommit 8efe0f3f7966e5cd1a237035ae0178c24620aa5f[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Tue Jun 18 11:02:39 2024 +0700
+
+    Custom Ruby Armor
+
+[33mcommit 447caf39eb909e852eaea41453894ffd262828dc[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Tue Jun 18 09:47:02 2024 +0700
+
+    Custom Ruby Tools
+
+[33mcommit 9a896a12a4e00d3c32cd357fc71a8150269650f2[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Mon Apr 22 10:40:47 2024 +0700
+
+    Steel nonBlock
+
+[33mcommit 339ac386d8ae348c1ba583a7084574e6880cbbe3[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sat Apr 20 09:59:16 2024 +0700
+
+    Custom Not Full Block
+
+[33mcommit b7ab707c514d0c96efe525b0a1d181bb6dc6fd61[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Fri Apr 19 13:25:40 2024 +0700
+
+    Data Generator
+
+[33mcommit c2e128a7f403530297c50bf12a0fed056fd789f8[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Fri Jan 19 20:50:48 2024 +0700
+
+    Food, fuel, tooltip for item
+
+[33mcommit 6af5a3eb75b3302d4f637f865af9ff7adbe21ec5[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sat Jan 13 16:07:15 2024 +0700
+
+    Custom Advanced Block
+
+[33mcommit 588637ef0a0feda10413eb0ff45f5393eece1f75[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Fri Jan 12 05:12:02 2024 +0700
+
+    Custom Advanced Item
+
+[33mcommit 52c97b466991a709dca14b27f4cfcc8a32b51cb9[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sun Jan 7 16:22:07 2024 +0700
+
+    Loot Table
+
+[33mcommit bbaa6211a29c1bf0e1aab2ee56ed68127060cdb4[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sun Jan 7 15:21:17 2024 +0700
+
+    Custom Recipes
+
+[33mcommit 7c1d9873e61187f67bf526e47c2c0e7ee54c9979[m
+Merge: b0b3372 df341dd
+Author: Ahmad0126 <114657854+Ahmad0126@users.noreply.github.com>
+Date:   Sat Jan 6 15:25:06 2024 +0700
+
+    Merge pull request #1 from Ahmad0126/learning-process-development
+    
+    Steel and Custom Blocks
+
+[33mcommit df341dd269baade1c45932ee92b7649b5e076e16[m[33m ([m[1;31morigin/learning-process-development[m[33m, [m[1;32mmain[m[33m, [m[1;32mlearning-process-development[m[33m)[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sat Jan 6 15:18:55 2024 +0700
+
+    Steel and Custom Blocks
+
+[33mcommit b0b337269281585d544986709f1f54e74feee740[m
+Author: Ahmad0126 <azaid7492@gmail.com>
+Date:   Sat Dec 30 15:43:57 2023 +0700
+
+    Adding custom item

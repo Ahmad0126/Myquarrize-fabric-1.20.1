@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "myquarrize:block/pink_garnet_lamp"
+    },
+    "clicked=true": {
+      "model": "myquarrize:block/pink_garnet_lamp_on"
+    }
+  }
+}
