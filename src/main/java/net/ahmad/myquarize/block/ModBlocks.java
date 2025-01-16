@@ -2,6 +2,7 @@ package net.ahmad.myquarize.block;
 
 import net.ahmad.myquarize.Myquarrize;
 import net.ahmad.myquarize.block.custom.CursedThunderBlock;
+import net.ahmad.myquarize.block.custom.PinkGarnetLampBlock;
 import net.ahmad.myquarize.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -63,6 +64,10 @@ public class ModBlocks {
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), BlockSetType.IRON, 10, true));
     public static final Block STEEL_PRESSURE_PLATE = registerBlock("steel_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(10f, 12f), BlockSetType.IRON));
+
+    public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+            new PinkGarnetLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -1,5 +1,8 @@
 package net.ahmad.myquarize.item.custom;
 
+import net.ahmad.myquarize.Myquarrize;
+import net.ahmad.myquarize.item.ModItems;
+import net.ahmad.myquarize.util.ModInventoryUtil;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -11,6 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.Items;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -19,6 +23,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class MineralDetectorItem extends Item {
     public MineralDetectorItem(Settings settings) {
@@ -62,6 +67,11 @@ public class MineralDetectorItem extends Item {
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
 
+                    Logger.getLogger(Myquarrize.MOD_ID).info("Has stack: " + ModInventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_STICK));
+                    if(ModInventoryUtil.hasPlayerStackInInventory(player, ModItems.DATA_STICK)){
+                        addNbtToDataTablet(player, positionClicked.add(0, -i, 0), state.getBlock());
+                    }
+
                     break;
                 }
             }
@@ -73,6 +83,15 @@ public class MineralDetectorItem extends Item {
                 playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
 
         return ActionResult.SUCCESS;
+    }
+
+    private void addNbtToDataTablet(PlayerEntity player, BlockPos pos, Block blockBelow) {
+        ItemStack dataTablet = player.getInventory().getStack(ModInventoryUtil.getFirstInventorySlot(player, ModItems.DATA_STICK));
+
+        NbtCompound nbtData = new NbtCompound();
+        nbtData.putString("myquarrize.last_ore", "Found " + blockBelow.asItem().getName().getString() + " at (" + pos.getX() + ", "+ pos.getY() + ", "+ pos.getZ() + ")");
+
+        dataTablet.setNbt(nbtData);
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, LivingEntity player, Block block) {

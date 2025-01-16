@@ -6,6 +6,8 @@
   "item.myquarrize.steel_hoe": "Steel Hoe",
   "item.myquarrize.metal_detector": "Metal Detector",
   "item.myquarrize.ruby_staff": "Ruby Staff",
+  "item.myquarrize.data_stick": "Data Stick",
+  "item.myquarrize.counter_compass": "Counter Compass",
   "item.myquarrize.ruby_pickaxe": "Ruby Pickaxe",
   "item.myquarrize.ruby_axe": "Ruby Axe",
   "item.myquarrize.ruby_shovel": "Ruby Shovel",
@@ -38,6 +40,7 @@
   "block.myquarrize.thunder_steel": "Cursed Steel",
   "block.myquarrize.ruby_ore": "Ruby Ore",
   "block.myquarrize.steel_block": "Block of Steel",
+  "block.myquarrize.pink_garnet_lamp": "pink Garnet Lamp",
   "tooltip.myquarrize.thunder_block.tooltip": "Jangan diinjak!",
   "itemgroup.mods": "Mods"
 }

@@ -2,6 +2,8 @@ package net.ahmad.myquarize.item;
 
 import net.ahmad.myquarize.Myquarrize;
 import net.ahmad.myquarize.block.custom.ModArmorItem;
+import net.ahmad.myquarize.item.custom.CounterToolItem;
+import net.ahmad.myquarize.item.custom.DataTabletItem;
 import net.ahmad.myquarize.item.custom.MetalDetectorItem;
 import net.ahmad.myquarize.item.custom.MineralDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -19,6 +21,8 @@ public class ModItems {
 
     public static final Item STEEL_HOE = registerItem("steel_hoe", new MineralDetectorItem(new FabricItemSettings().maxDamage(384)));
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(152)));
+    public static final Item DATA_STICK = registerItem("data_stick", new DataTabletItem(new FabricItemSettings().maxCount(1)));
+    public static final Item COUNTER_COMPASS = registerItem("counter_compass", new CounterToolItem(new FabricItemSettings().maxCount(1)));
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 2, -2.8f, new FabricItemSettings()));

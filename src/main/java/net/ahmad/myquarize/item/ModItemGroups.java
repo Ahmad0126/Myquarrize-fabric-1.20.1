@@ -20,12 +20,15 @@ public class ModItemGroups {
                 entries.add(ModItems.STEEL_HOE);
                 entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModItems.RUBY_STAFF);
+                entries.add(ModItems.DATA_STICK);
+                entries.add(ModItems.COUNTER_COMPASS);
 
                 entries.add(ModItems.RUBY);
                 entries.add(ModItems.RAW_RUBY);
                 entries.add(ModBlocks.RUBY_ORE);
                 entries.add(ModBlocks.RUBY_BLOCK);
                 entries.add(ModBlocks.THUNDER_BLOCK);
+                entries.add(ModBlocks.PINK_GARNET_LAMP);
                 entries.add(ModBlocks.RUBY_SLAB);
                 entries.add(ModBlocks.RUBY_STAIRS);
                 entries.add(ModBlocks.RUBY_DOOR);

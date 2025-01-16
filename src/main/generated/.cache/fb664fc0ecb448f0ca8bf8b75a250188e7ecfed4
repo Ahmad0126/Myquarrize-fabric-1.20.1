@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-18T10:44:24.2168991	Myquarrize/Model Definitions
+// 1.20.1	2024-12-28T21:33:59.5587264	Myquarrize/Model Definitions
 2c46d61fa18d189d81107db298e5387492824374 assets\myquarrize\models\item\steel_wall.json
 ef0bb0f2d8fecb0e76ebebb49a76dac1ba571c7b assets\myquarrize\models\block\ruby_trapdoor_open.json
 8f10c1247b74c0c49e279a7745f17d5ae5fec0fb assets\myquarrize\models\block\ruby_trapdoor_bottom.json
@@ -73,6 +73,7 @@ d5119298edda5cb7ca56150aaf206b883631827a assets\myquarrize\models\item\ruby_ches
 b7834c5954f12723ca8cb262a9e2249c9ca35949 assets\myquarrize\models\item\ruby_boots_emerald_trim.json
 de202748b5ba1b201a0e75c40a57aea4089f519a assets\myquarrize\models\item\ruby_chestplate_quartz_trim.json
 0961ed6e52e59d6890b655e72547ffad44aca9c5 assets\myquarrize\models\block\steel_button.json
+523ccf47cce02fc593b970cf007acbe6e54e6391 assets\myquarrize\blockstates\pink_garnet_lamp.json
 87727b91ddbb070561462eb68442b90ae5b2886d assets\myquarrize\models\block\steel_fence_inventory.json
 220f790b9b71cc9f3aa19a0d2dedf98665997d7c assets\myquarrize\models\block\ruby_fence_post.json
 f1b870cd61dbd53196f4a92d8b515de4a422046b assets\myquarrize\models\block\steel_fence_gate.json
@@ -120,6 +121,7 @@ f7729c0c09b2fe2250d8732aeb15824622a0dd4a assets\myquarrize\blockstates\steel_sla
 4c3d30a8cc9bf7a08065de43a0dcdd743ad89a01 assets\myquarrize\models\item\thunder_block.json
 d0e5cc01559295802b8dc364e8ae2af5db26a7de assets\myquarrize\models\block\steel_door_top_left.json
 cae69ca075ca46e2cd88e56b1be6fb4cc8b4b501 assets\myquarrize\blockstates\steel_pressure_plate.json
+d7c5a6985846f35c23df1aae30ef01160b6f8294 assets\myquarrize\models\block\pink_garnet_lamp.json
 cd75b2a8f25621c0cf8c36656c02b03b18014019 assets\myquarrize\models\block\steel_fence_side.json
 8dc0e3f6dc74bb3ba7c6d632843d9f60dc28d0d8 assets\myquarrize\models\item\ruby_fence_gate.json
 a2483aca36a2410b38de4ac056d1e1037a3b4e6a assets\myquarrize\models\block\ruby_slab_top.json
@@ -127,10 +129,12 @@ a2483aca36a2410b38de4ac056d1e1037a3b4e6a assets\myquarrize\models\block\ruby_sla
 ecb468ea7e60dd078c8b1b5f17b969e0a054d28b assets\myquarrize\models\block\steel_fence_gate_wall.json
 80f48caa7a9297068c2543ab1ac1fe0cc9c98e0b assets\myquarrize\models\item\ruby_leggings_copper_trim.json
 175ebbc5a27a0f39371ad52c32eed6215f6cae98 assets\myquarrize\models\item\ruby_wall.json
+d661883bf6ed1b4fea4b609cd11a1e64d135cf91 assets\myquarrize\models\block\pink_garnet_lamp_on.json
 0f302302face37b8d8904c4f11b435719f7cf244 assets\myquarrize\models\block\steel_stairs.json
 4d51447102ced2e12bce77e42a879059d052ac97 assets\myquarrize\models\item\ruby_boots_gold_trim.json
 864b8bd50b5b575dc60c2747f503a0ef99c4fc94 assets\myquarrize\models\item\ruby_chestplate_gold_trim.json
 6260fde58ff3e283863a30178db4b723e44893d3 assets\myquarrize\models\block\ruby_fence_gate.json
+16ea0b8b895513fceb067886e5a0db0a1372955b assets\myquarrize\models\item\pink_garnet_lamp.json
 a398688945fb9d1f626e34d298487ddf8a75aaaa assets\myquarrize\models\block\steel_button_pressed.json
 585fc4366d1e622c6f1b60cad8b10674009b7b27 assets\myquarrize\models\item\ruby_shovel.json
 3e9ce7ddbe9dac024c747890ae1913b99c7c1161 assets\myquarrize\models\item\steel_block.json
